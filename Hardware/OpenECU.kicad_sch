@@ -1,0 +1,72 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6ba7999e-14c6-4ae7-8a9c-b3178da083ce)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 104.14 41.91) (size 38.1 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 381ac0ba-1452-42d2-80b0-a1b73edf92b7)
+    (property "Sheet name" "MCU" (id 0) (at 104.14 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 104.14 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 68.58 41.91) (size 21.59 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7ba41709-763d-4924-b365-501a763cce07)
+    (property "Sheet name" "USB" (id 0) (at 68.58 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "USB.kicad_sch" (id 1) (at 68.58 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 152.4 41.91) (size 30.48 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a22ef832-33fc-4544-9dac-b6ed3c7ca675)
+    (property "Sheet name" "Sensors" (id 0) (at 152.4 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Sensors.kicad_sch" (id 1) (at 152.4 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 68.58 74.93) (size 21.59 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a54d34e1-6045-4f4c-bb09-a70ef04dc72a)
+    (property "Sheet name" "Voltage Generation" (id 0) (at 68.58 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "VGen.kicad_sch" (id 1) (at 68.58 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/a22ef832-33fc-4544-9dac-b6ed3c7ca675" (page "2"))
+    (path "/381ac0ba-1452-42d2-80b0-a1b73edf92b7" (page "3"))
+    (path "/7ba41709-763d-4924-b365-501a763cce07" (page "4"))
+    (path "/a54d34e1-6045-4f4c-bb09-a70ef04dc72a" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/381ac0ba-1452-42d2-80b0-a1b73edf92b7/1112b7d9-fa55-49d2-a6fe-e666f391852c"
+      (reference "U?") (unit 1) (value "ESP32-C3-WROOM-02-H4") (footprint "MODULE_ESP32-C3-WROOM-02-H4")
+    )
+  )
+)
